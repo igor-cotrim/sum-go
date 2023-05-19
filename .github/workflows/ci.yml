@@ -30,5 +30,6 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v4
         with:
+          context: .
           push: true
-          tags: igor-cotrim/sum-go:latest
+          tags: igorcotrim/sum-go:latest
